@@ -1,0 +1,20 @@
+.s1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+.s2 {
+    text-decoration: line-through;
+}
+.s3 {
+    text-transform: uppercase;
+}
+.s4 {
+    text-decoration: overline wavy;
+    word-spacing: 30px;
+}
+.s5 {
+    text-decoration: underline double;
+    letter-spacing: 5px;
+}
