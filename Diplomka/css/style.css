@@ -1,0 +1,37 @@
+@import "fonts.css";
+@import "reset.css";
+@import "global.css";
+
+@import "header.css";
+@import "footer.css";
+/* =============================================== */
+.slider-girl {
+}
+.slider-preview {
+}
+.swiper {
+}
+.slider-preview__wrapper {
+}
+.swiper-wrapper {
+}
+.slider-preview__slide {
+}
+.swiper-slide {
+}
+.slider-preview__pagination {
+}
+.swiper-pagination {
+}
+.slider-preview__next {
+}
+.swiper-button-next {
+}
+.slider-preview__prev {
+}
+.swiper-button-prev {
+}
+
+
+
+/* =============================================== */

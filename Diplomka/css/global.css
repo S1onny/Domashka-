@@ -1,0 +1,39 @@
+:root {
+    --general-bg: #ffffff;
+    --black-text: #3C4242;
+    --grey-text: #807D7E;
+    --transition: all .4s;
+}
+
+.body {
+    line-height: 1.5;
+    color: var(--black-text);
+    background: var(--general-bg);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+.main {
+    flex-grow: 1;
+}
+
+.footer {
+    font-family: Causten;
+    color: #F6F6F6;
+    background: var(--black-text);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2.16;
+}
