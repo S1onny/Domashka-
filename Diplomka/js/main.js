@@ -1,19 +1,45 @@
 
 
 // ============== Верхний мейн слайдер
-const swiper = new Swiper('.swiper', {
+const previewSlider = new Swiper('.slider-preview', {
     loop: true,
+    slidesPerView: 1,
 
     // If we need pagination
     pagination: {
-        el: '.swiper-pagination',
+        el: '.slider__preview-pagination',
     },
 
     // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.slider__preview-next',
+        prevEl: '.slider__preview-prev',
     },
+});
+
+// ============== Cлайдер коллекций
+const collectionSlider = new Swiper('.collection-slider', {
+    slidesPerView: 4,
+    spaceBetween: -30,
+    
+    // Navigation arrows
+    navigation: {
+        nextEl: '.collection__next',
+        prevEl: '.collection__prev',
+    },
+});
+
+// ============== Cлайдер отзывы 
+
+const feedbackSlider = new Swiper('.feedback-slider', {
+    // loop: true,
+    slidesPerView: 3,
+    spaceBetween: 23,
+
+    pagination: {
+        el: '.feedback__pagination',
+    },
+
 });
 
 // ================== Футер аккордион

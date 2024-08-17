@@ -4,12 +4,14 @@
 
 .footer__info,
 .footer__grid {
-    padding-left: 80px;
+    padding-left: clamp(20px, 8vw, 80px);
 }
 
 .footer__info {
     display: flex;
-    gap: 77px;
+    justify-content: space-between;
+    gap: 30px;
+    white-space: nowrap;
 }
 
 .footer__info-inner {
@@ -25,6 +27,7 @@
 
 .footer__info-text {
     transition: var(--transition);
+    padding: 10px 0;
 }
 
 .footer__info-text:hover {
@@ -137,6 +140,7 @@
 .footer__panel-text {
     border-bottom: solid 1px;
     transition: var(--transition);
+    padding:10px 0;
 }
 .footer__panel-text a{ 
     transition: var(--transition);

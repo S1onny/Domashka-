@@ -6,6 +6,7 @@
 }
 
 .body {
+    font-family: Causten;
     line-height: 1.5;
     color: var(--black-text);
     background: var(--general-bg);
@@ -35,5 +36,5 @@
     background: var(--black-text);
     font-weight: 500;
     font-size: 18px;
-    line-height: 2.16;
+    /* line-height: 2.16; */
 }
