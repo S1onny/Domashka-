@@ -7,11 +7,9 @@
     --purple: #8A33FD;
     --transition: all .4s;
     /* ================  font-size adaptive  */
-    --twenty-twofz: calc(16px + 6 * (100vw / 1440));
-    --fifty: calc(20px + 30 * (100vw/1440));
+    --twenty-twofz: clamp(8px, 1.6vw, 36px);
     --sixteen: calc(12px + 4 * (100vw / 1440));
-    --thirty-four: calc(22px + 12 * (100vw / 1440));
-    --seventy-eight: calc(30px + 48 * (100vw / 1440));
+    --thirty-four: clamp(10px, 2.5vw, 55px);
     --eighteen: calc(12px + 6 * (100vw / 1440));
     --twenty: calc(14px + 6 * (100vw / 1440));
     --twenty-eight: calc(18px + 10 * (100vw / 1440));
