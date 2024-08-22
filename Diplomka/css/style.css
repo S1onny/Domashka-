@@ -87,7 +87,8 @@
 }
 .slider__preview-next svg,
 .slider__preview-prev svg {
-    height: 44px;
+    height: 3vw;
+    width: 3vw;
 }
 
 .slider__preview-next {
