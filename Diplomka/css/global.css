@@ -8,10 +8,10 @@
     --transition: all .4s;
     /* ================  font-size adaptive  */
     --twenty-twofz: clamp(8px, 1.6vw, 36px);
-    --sixteen: calc(12px + 4 * (100vw / 1440));
-    --thirty-four: clamp(10px, 2.5vw, 55px);
-    --eighteen: calc(12px + 6 * (100vw / 1440));
-    --twenty: calc(14px + 6 * (100vw / 1440));
+    --sixteen: clamp(6px, 1.1vw, 22px);
+    --thirty-four: clamp(10px, 2.4vw, 55px);
+    --eighteen: clamp(8px, 1.25vw, 26px);
+    --twenty: clamp(10px, 1.4vw, 30px);
     --twenty-eight: calc(18px + 10 * (100vw / 1440));
     --fourteen: calc(10px + 4 * (100vw / 1440));
 }
@@ -32,7 +32,7 @@
 }
 
 .container {
-    max-width: 1270px;
+    max-width: 88%;
     margin: 0 auto;
     padding: 0 15px;
     height: 100%;
