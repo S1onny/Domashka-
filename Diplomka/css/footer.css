@@ -71,8 +71,8 @@
     
 }
 .footer__download-img {
-    width: clamp(51px, 10.7vw, 200px);
-    height: clamp(30px,3.54vw,60px);
+    width: clamp(51px, 10.7vw, 257px);
+    height: clamp(30px,3.54vw,200px);
 }
 .footer__download-app {
 }
