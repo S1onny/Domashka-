@@ -36,14 +36,30 @@ const previewSlider = new Swiper('.slider-preview', {
 
 // ============== Cлайдер коллекций
 const collectionSlider = new Swiper('.collection-slider', {
-    slidesPerView: 4,
-    spaceBetween: -30,
+    slidesPerView: 3,
+    spaceBetween: 40,
     
     // Navigation arrows
     navigation: {
         nextEl: '.collection__next',
         prevEl: '.collection__prev',
     },
+    breakpoints: {
+        0: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        601: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        801: {
+            spaceBetween: 40,
+        },
+        1101: {
+        slidesPerView: 4,
+        }
+    }
 });
 
 // ============== Cлайдер отзывы 
