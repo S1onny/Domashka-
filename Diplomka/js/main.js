@@ -72,6 +72,20 @@ const feedbackSlider = new Swiper('.feedback-slider', {
     pagination: {
         el: '.feedback__pagination',
     },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        601: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        801: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
+    }
 
 });
 
