@@ -1,13 +1,7 @@
-<svg width="23.193848" height="23.193848" viewBox="0 0 23.1938 23.1938" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="19.328125" height="18.361816" viewBox="0 0 19.3281 18.3618" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<desc>
 			Created with Pixso.
 	</desc>
-	<defs>
-		<clipPath id="clip155_533">
-			<rect id="star_purple500" width="23.193752" height="23.193752" fill="white" fill-opacity="0"/>
-		</clipPath>
-	</defs>
-	<g clip-path="url(#clip155_533)">
-		<path id="Vector" d="M11.59 16.68L17.56 20.29L15.98 13.5L21.26 8.92L14.31 8.33L11.59 1.93L8.88 8.33L1.93 8.92L7.2 13.5L5.62 20.29L11.59 16.68Z" fill="#EDD146" fill-opacity="1.000000" fill-rule="nonzero"/>
-	</g>
+	<defs/>
+	<path id="Vector" d="M9.66 14.75L15.63 18.36L14.05 11.56L19.32 6.99L12.37 6.4L9.66 0L6.94 6.4L0 6.99L5.27 11.56L3.69 18.36L9.66 14.75Z" fill="#EDD146" fill-opacity="1.000000" fill-rule="nonzero"/>
 </svg>

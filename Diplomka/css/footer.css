@@ -1,6 +1,4 @@
-.footer__inner {
 
-}
 .footer__container {
     width: 76vw;
     margin: 0 auto;
@@ -25,9 +23,7 @@
 .footer__info-text {
     font-size: var(--eighteen);
 }
-.footer__flex {
 
-}
 .footer__download-title {
     display: flex;
     justify-content: end;
@@ -67,14 +63,10 @@
 .footer__download {
     padding-right: 6vw;
 }
-.footer__download-play {
-    
-}
+
 .footer__download-img {
     width: clamp(51px, 10.7vw, 257px);
     height: clamp(30px,3.54vw,200px);
-}
-.footer__download-app {
 }
 
 

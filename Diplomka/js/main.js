@@ -103,4 +103,37 @@ for (i = 0; i < acc.length; i++) {
             panel.style.maxHeight = panel.scrollHeight + 'px';
         }
     });
+};
+
+const accordionF = document.getElementsByClassName("filter__accordion-inner");
+
+
+for (i = 0; i < accordionF.length; i++) {
+    accordionF[i].addEventListener('click', function () {
+        this.classList.toggle('filter__accordion-active');
+        let panelF = this.nextElementSibling;
+        if (panelF.style.maxHeight) {
+            panelF.style.maxHeight = null;
+        } else {
+            panelF.style.maxHeight = panelF.scrollHeight + 'px';
+        }
+    });
+};
+
+// =================== Кнопка "показать больше"
+function readMore() {
+    let dots = document.getElementById('dots')
+    let more = document.getElementById('more')
+    let btn = document.getElementById('btn')
+
+    if(dots.style.display === 'none') {
+        dots.style.display='inline';
+        btn.innerHTML='See More';
+        more.style.display='none';
+    } else {
+        dots.style.display='none';
+        btn.innerHTML='Hide';
+        more.style.display='inline';
+    }
+
 }
