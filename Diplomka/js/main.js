@@ -1,14 +1,4 @@
-// document.addEventListener('click', toggleNav)
 
-// function toggleNav(e) {
-//     let navElement = document.querySelectorAll('.header__nav-shop-link')
-
-//     if(!document.navElement.classList.contains('header__nav-shop-link--selected')) {
-//         document.navElement.classList.add('header__nav-shop-link--selected')
-//     } else {
-//         document.navElement.classList.remove('header__nav-shop-link--selected')
-//     }
-// }
 let b = window.location.href
 let count = document.querySelector('.header__nav-shop-list').getElementsByTagName('li').length
 
