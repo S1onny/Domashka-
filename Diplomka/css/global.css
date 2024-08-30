@@ -7,11 +7,11 @@
     --purple: #8A33FD;
     --transition: all .4s;
     /* ================  font-size adaptive  */
-    --twenty-twofz: clamp(8px, 1.6vw, 40px);
-    --sixteen: clamp(6px, 1.1vw, 28px);
+    --twenty-twofz: clamp(12px, 1.6vw, 40px);
+    --sixteen: clamp(8px, 1.1vw, 28px);
     --thirty-four: clamp(9px, 2.4vw, 55px);
     --eighteen: clamp(6px, 1.25vw, 30px);
-    --twenty: clamp(6px, 1.4vw, 36px);
+    --twenty: clamp(8px, 1.4vw, 36px);
     --twenty-eight: clamp(10px,1.95vw, 46px);
     --fourteen: clamp(5px, .97vw, 26px);
 }
@@ -32,9 +32,9 @@
 }
 
 .container {
-    max-width: 88%;
+    max-width: 88vw;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 1vw;
     height: 100%;
 }
 .main {

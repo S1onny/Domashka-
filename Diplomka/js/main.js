@@ -17,6 +17,29 @@ function burgerInit(e) {
 
 }
 
+document.addEventListener('click', filterInit)
+
+function filterInit(e) {
+    const filterIcon = e.target.closest ('.filter__mobile')
+
+    if (!filterIcon) return
+    
+    if(document.documentElement.clientWidth > 1000) return
+
+    if (!document.body.classList.contains('body--opened-filter')) {
+        document.body.classList.add('body--opened-filter')
+    } else {
+        document.body.classList.remove('body--opened-filter')
+    }
+
+    const filterTitle = document.getElementById('filterMain')
+	if (document.documentElement.clientWidth <= 1000) {
+		filterTitle.classList.add('filter__mobile');
+	} else {
+		filterTitle.classList.remove('filter__mobile');
+	}
+}
+
 // ============== Верхний мейн слайдер
 const previewSlider = new Swiper('.slider-preview', {
     loop: true,
